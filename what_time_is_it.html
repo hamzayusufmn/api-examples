@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>interval</title>
+</head>
+<body>
+<h1> what time is it</h1>
+<p id = 'time' ></p>
+<script>
+    let timeElement = document.querySelector('#time')
+
+    setInterval(  () => {
+        let date = Date()
+        timeElement.innerHTML = date
+        // deleted function and added arrow and code still worked
+
+    } ,1000)
+
+// date is bulit in and allows for current date and time
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
